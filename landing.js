@@ -10,7 +10,7 @@ let target = 0;
 let z = 0;
 
 // ✅ faster + more NAFAAS-like
-const SPEED = 0.5;     // wheel sensitivity
+const SPEED = 0.8;     // wheel sensitivity
 const DAMP  = 0.12;    // smoothing
 
 function clamp(v, min, max){ return Math.max(min, Math.min(max, v)); }
@@ -77,4 +77,5 @@ layers.forEach(el => el.style.transition = "opacity 120ms linear, filter 120ms l
 
 updateLayerFX(0);
 animate();
+
 
