@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Raza Family Tree</title>
+
+  <!-- Fonts (must be inside HEAD) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Your main styles -->
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+
+<body>
+  <main class="container">
+    <div class="toolbar">
+      <div>
+        <h1>Raza Family Tree</h1>
+        <div class="small">Search a name to highlight the path.</div>
+      </div>
+
+      <div class="controls">
+        <input id="searchInput" class="input" placeholder="Search name (exact)"/>
+        <button id="searchBtn" class="primary">Find</button>
+        <button id="resetBtn" class="primary secondary">Reset</button>
+      </div>
+    </div>
+
+    <div id="treeWrap">
+      <div id="tooltip" class="tooltip"></div>
+      <!-- D3 injects SVG here -->
+    </div>
+
+    <section class="aboutSection">
+      <h2>For the Generations After Us</h2>
+<br>
+      <p>
+        This website exists to document and preserve our Afghan family history. <br>
+        <br>
+       Many of our ancestors lived through difficult times, 
+       yet their stories shaped who we are today. <br>
+       <br>
+       By creating this website, we ensure that their names are remembered,
+        their journeys are respected, and their legacy continues 
+        through future generations of our Afghan family.<br>
+        <br>
+        This family tree is our way of honoring them.
+      </p>
+      <br>
+
+<h2>Raza.</h2>
+      <a class="homeBtn" href="index.html">Bring me Home</a>
+    </section>
+  </main>
+
+  <!-- Scripts must be at bottom of BODY -->
+  <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+  <script src="tree.js"></script>
+</body>
+</html>

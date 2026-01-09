@@ -1,0 +1,614 @@
+{
+  "name": "Mohammad (S.A.W.S)",
+  "children": [
+    {
+      "name": "Bebe Fatima-i-Zahra (R.A)",
+      "children": [
+        {
+          "name": "Imam Hussain (R.A)",
+          "children": [
+            {
+              "name": "Zainul-abudin (Beemar)",
+              "children": [
+                {
+                  "name": "Said Sultan Ibrahim Qatal",
+                  "comment": "A series of Imams in between",
+                  "children": [
+                    {
+                      "name": "Mir Mohammad Raza (Of Ghore, Herat)",
+                      "comment": "6 generation in between",
+                      "children": [
+                        { 
+                            "name": "General Baba Mir",
+                            "children": [
+                             { 
+                                "name": "Mir Abdul Samad",
+                            "children":[
+                                {
+                                    "name":"Mir Anwar-ul-Haq",
+                                "children":[
+                                    {"name":"Mir Mohd Zahir"},
+                                    {
+                                        "name":"Mir Abdul Rauf",
+                                    "children":[
+                                        {
+                                            "name":"Mir Muin",
+                                        "children":[
+                                            {"name":"Efat"},
+                                            {"name":"Nekhat"}
+                                        ]},
+                                        {
+                                            "name":"Mir Enam",
+                                        "children":[
+                                            {"name":"Mir Elias"},
+                                            {"name":"Susan"}
+                                        ]},
+                                        {"name":"Mir Baryalay",
+                                    "children":[
+                                        {"name":"Ellaha"},
+                                        {"name":"Asana"},
+                                        {"name":"Sara"},
+                                        {"name":"Hadia"},
+                                        {"name":"Yusra"}
+                                    ]},
+                                        {
+                                            "name":"Nadja",
+                                        "children":[
+                                            {
+                                                "name":"Khalid",
+                                            "children":[
+                                                {"name":"Malik"},
+                                                {"name":"Milan"}
+                                            ]},
+                                            {"name":"Nohmanh"},
+                                            {"name":"Sofia"},
+                                            {"name":"Faisal"}
+                                        ]},
+                                        {
+                                            "name":"Shekeba",
+                                        "children":[
+                                            {
+                                                "name":"Shams",
+                                            "children":[
+                                                {"name":"1 Son"},
+                                                {"name":"1 Daughter"}
+                                            ]},
+                                            {"name":"Floran"},
+                                            {"name":"Messi"},
+                                            {"name":"Fedia"},
+                                            {
+                                                "name":"Samim",
+                                            "children":[
+                                                {"name":"1 Daughter"}
+                                            ]},
+                                            {"name":"Farian"},
+                                            {"name":"Nesar"},
+                                            {"name":"Fara"},
+                                            {"name":"Shukran"}
+                                        ]}
+                                    ]}
+                                ]},
+                                {
+                                    "name":"Mir Jamaludin",
+                                "children":[
+                                    {"name":"Mir Abdul Haq"},
+                                    {
+                                        "name":"Bebe Maasuma",
+                                    "children":[
+                                        {"name":"Mohd Naseem Arefi"},
+                                        {"name":"Mohd Saleem"},
+                                        {"name":"Mohd Azeem"}
+                                    ]}
+                                ]}
+                            ] },
+                             {
+                                 "name": "Mir Abdul Hadi",
+                                "children":[
+                                    {
+                                        "name":"Malik Mir Taj Mohd",
+                                    "children":[
+                                        {"name":"Roshan"},
+                                        {
+                                            "name":"Mir Khan Mohd",
+                                        "children":[
+                                            {
+                                                "name":"Laila",
+                                            "children":[
+                                                {
+                                                    "name": "Rafi",
+                                                "children":[
+                                                    {"name":"1 Daughters"},
+                                                    {"name":"1 Son"}
+                                                ]},
+                                                {"name":"Fardin"},
+                                                {
+                                                    "name":"Tamana",
+                                                "children":[
+                                                    {"name":"Lemar"},
+                                                    {"name":"Zayn"}
+                                                ]},
+                                                {"name":"Tabasum"},
+                                                {"name":"Diba"}
+                                            ]},
+                                            {
+                                                "name":"Latifa",
+                                            "children":[
+                                                {"name":"Nasser"},
+                                                {"name":"Yasser"},
+                                                {"name":"Nilab"},
+                                                {"name":"Ima"}
+                                            ]},
+                                            {"name":"Wali"},
+                                            {"name":"Mir Ousman"},
+                                            {"name":"Ibrahim"},
+                                            {"name":"Amir Mohd"},
+                                            {"name":"Mhotarama"},
+                                            {"name":"Fereshta"},
+                                            {"name":"Nasifa"}
+                                        ]},
+                                        {
+                                            "name":"Zia Gul",
+                                        "children":[
+                                            {
+                                                "name":"Humayoon",
+                                            "children":[
+                                                {"name":"Tamina"},
+                                                {"name":"Rania"},
+                                                {"name":"Hadia"}
+                                            ]},
+                                            {
+                                                "name":"Fareed",
+                                            "children":[
+                                                {"name":"Ariane"},
+                                                {"name":"Tosh"},
+                                                {"name":"Leilee"}
+                                            ]},
+                                            {
+                                                "name":"Farhad",
+                                        "children":[
+                                            {"name":"Yousef"},
+                                            {"name":"Yamaa"}
+                                        ]},
+                                            {
+                                                "name":"Mahmood",
+                                        "children":[
+                                            {"name":"Aayesha"},
+                                            {"name":"Elyas"}
+                                        ]},
+                                            {
+                                                "name":"Khalid",
+                                        "children":[
+                                            {"name":"Sabrina"},
+                                            {"name":"Marwa"}
+                                        ]},
+                                            {
+                                                "name":"Merzia",
+                                            "children":[
+                                                {"name":"Sanam"},
+                                                {"name":"Nargis"},
+                                                {
+                                                    "name":"Mursall",
+                                            "children":[
+                                                {"name":"Samir"}
+                                            ]}
+                                            ]},
+                                            {
+                                                "name":"Mahjuba",
+                                            "children":[
+                                                {"name":"Eshal"},
+                                                {"name":"Parand"},
+                                                {"name":"Omead"},
+                                                {"name":"Arash"}
+                                            ]},
+                                            {
+                                                "name":"Roya",
+                                        "children":[
+                                            {"name":"Mateen"}
+                                        ]}
+                                        ]},
+                                        {"name":"Mir Agha Mohd"},
+                                        {"name":"Said Mahboob"}
+                                    ]},
+                                    {
+                                        "name":"Mir Faiz Mohd",
+                                    "children":[
+                                        {
+                                            "name":"Said Faqir",
+                                        "children":[
+                                            {"name":"Said Naweed"},
+                                            {
+                                                "name":"Said Mobin",
+                                            "children":[
+                                                {"name":"1 Son"}
+                                            ]},
+                                            {"name":"Said Bilal"},
+                                            {"name":"Said Hasib (Shahid)"},
+                                            {"name":"Said Mureed"}
+                                        ]},
+                                        {
+                                            "name":"Said Muhsin",
+                                        "children":[
+                                            {"name":"Said Fawad"},
+                                            {
+                                                "name":"Said Jawad",
+                                            "children":[
+                                                {"name":"Said Sajad"},
+                                                {"name":"Zohal"},
+                                                {"name":"1 Son"},
+                                                {"name":"1 Daughter"}
+                                            ]},
+                                            {"name":"Said Tawab"},
+                                            {"name":"Said Momen"},
+                                            {"name":"Said Fahim"}
+                                        ]},
+                                        {"name":"Said Zikria"},
+                                        {"name":"Said Hashim"}
+                                    ]},
+                                    {
+                                        "name":"Mir Yar Mohd",
+                                    "children":[
+                                        {"name":"Mir Mohd Raza"},
+                                        {"name":"Mir Baba"},
+                                        {
+                                            "name":"Mir Wais",
+                                        "children":[
+                                            {"name":"Sadaf"},
+                                            {"name":"Sodaba"}
+                                        ]},
+                                        {
+                                            "name":"Said",
+                                        "children":[
+                                            {"name":"1 Son"},
+                                            {"name":"2 Daughters"}
+                                        ]},
+                                        {
+                                            "name":"Mir Jan",
+                                        "children":[
+                                            {"name":"Eshal"},
+                                            {"name":"1 Daughter"}
+                                        ]}
+                                    ]}
+                                ] }
+                         ]
+                        },
+                        
+                        { 
+                            "name": "General Mir Khwaja",
+                            "children":[
+                                {
+                                    "name":"Mir Haider(Also married wife of Mir Sikandar after his death)",
+                                    "children":[
+                                        {"name":"Mir Akber Drowned in Sind River (India) at the age of 22"},
+                                        {
+                                            "name":"Mir Samander Shah Raza",
+                                        "children":[
+                                            {
+                                                "name":"Mir Akber Raza",
+                                            "children":[
+                                                {
+                                                    "name":"Mir Wais Raza",
+                                                "children":[
+                                                    {"name":"Arizo"},
+                                                    {"name":"Laily"}
+                                                ]},
+                                                {
+                                                    "name":"Naheed",
+                                                "children":[
+                                                    {"name":"Ariana"},
+                                                    {"name":"Madina"},
+                                                    {"name":"Sebrianne"}
+                                                ]},
+                                                {"name":"Omar M. Raza"},
+                                                {
+                                                    "name":"Fariha",
+                                                "children":[
+                                                    {"name":"Idreece"},
+                                                    {"name":"Cyrrus"}
+                                                ]},
+                                                {
+                                                    "name":"Nilofar",
+                                            "children":[
+                                                {"name":"Terrance J."},
+                                                {"name":"Alexander"},
+                                                {"name":"Sofia"}
+                                            ]},
+                                                {"name":"Sarina Raza"}
+                                            ]},
+                                            {
+                                                "name":"Saleha",
+                                            "children":[
+                                                {
+                                                    "name":"M. Sami Naimi",
+                                                "children":[
+                                                    {"name":"Zuhra"},
+                                                    {"name":"Ayida"},
+                                                    {"name":"Mukhtar"}
+                                                ]},
+                                                {"name":"M. Yosuf Naimi"},
+                                                {
+                                                    "name":"M. Wasai Naimi",
+                                                "children":[
+                                                    {"name":"Qais"},
+                                                    {"name":"Saumia"}
+                                                ]}
+                                            ]}
+                                        ]},
+                                        
+                                        {
+                                        "name":"Bebe Aisha",
+                                    "children":[
+                                        {
+                                            "name":"Mir Abdul Rahman",
+                                        "children":[
+                                            {
+                                                "name":"Mir Abdul Manon",
+                                            "children":[
+                                                {"name":"3 Sons"},
+                                                {"name":"1 Daughters"}
+                                            ]},
+                                            {
+                                                "name":"Fazeelat",
+                                            "children":[
+                                                {"name":"2 Sons"},
+                                                {"name":"1 Daughters"}
+                                            ]},
+                                            {
+                                                "name":"Mir Abdul Matin",
+                                            "children":[
+                                                {"name":"2 Sons"},
+                                                {"name":"2 Daughters"}
+                                            ]},
+                                            {
+                                                "name":"Gulsoom",
+                                            "children":[
+                                                {"name":"2 Sons"},
+                                                {"name":"2 Daughters"}
+                                            ]},
+                                            {"name":"Mir Abdul Hanon"}
+                                        ]}
+                                    ]}
+                                    ]
+                            },
+                            {
+                                "name":"Mir Sikandar",
+                            "children":[
+                                {"name":"Mir Mohd Sidiq",
+                            "children":[
+                                {"name":"Sidiqa",
+                            "children":[
+                                {"name":"Zikria"},
+                                {"name":"Abdulah"},
+                                {"name":"Hadia"},
+                                {"name":"Rashida"},
+                                {"name":"Hindia"}
+                            ]},
+                                {"name":"Mir Abdul Qader Sidiq",
+                            "children":[
+                                {"name":"Mir Mohd Omar"},
+                                {"name":"Mir Mohd Ali"},
+                                {"name":"Mir Mohd Farooq"}
+                            ]},
+                                {"name":"Mir Abdul Fatah Sidiq",
+                            "children":[
+                                {"name":"Mir M. Shareef"},
+                                {"name":"Mir Taymor"},
+                                {"name":"Mir Babrak"}
+                            ]},
+                                {"name":"Mir Abdul Wahab Sidiq",
+                            "children":[
+                                {"name":"Mir M. Mustafa"},
+                                {"name":"Mir M. Nizam"},
+                                {"name":"Sara"}
+                            ]},
+                                {"name":"Zarghuna"}
+                            ]}
+                            ]},
+                            { 
+                                "name": "Mir Khushdil",
+                            "children":[
+                                {"name":"2 Daughters in Lahore"}
+                            ] },
+                            {
+                                 "name": "General Mir Faqir",
+                                "children":[
+                                    {
+                                        "name":"Mir Afzal",
+                                    "children":[
+                                        {"name":"Said Noor Mohd Shah",
+                                    "children":[
+                                        {"name":"Said Rizwan"},
+                                        {"name":"2 Daughters"}
+                                    ]}
+                                    ]},
+                                    {"name":"Mir Said Mohd",
+                                "children":[
+                                    {"name":"Mir Asghar Shah",
+                                "children":[
+                                    {"name":"Said Inaam (Shahid)"}
+                                ]}
+                                ]}
+                                ] },
+                            { 
+                                "name": "Mir Azam Shah",
+                            "children":[
+                                {"name":"Mir Ahmard Shah",
+                            "children":[
+                                {"name":"Mir Hussien Shah",
+                            "children":[
+                                {"name":"Mir Azam"}
+                            ]}
+                            ]}
+                            ] },
+                            { 
+                                "name": "Mir Afghan",
+                            "children":[
+                                {
+                                    "name":"Mir Osman",
+                                "children":[
+                                    {
+                                        "name":"Mir Alam",
+                                    "children":[
+                                        {"name":"Naheed"},
+                                        {"name":"Madina"}
+                                    ]},
+                                    {"name":"Perveen",
+                                "children":[
+                                    {"name":"Mustafa"},
+                                    {"name":"Khalid"},
+                                    {
+                                        "name":"Yasemine",
+                                "children":[
+                                    {"name":"Zala"}
+                                ]},
+                                    {"name":"Marriam"},
+                                    {"name":"Walid"}
+                                ]},
+                                    {"name":"Mir Humayoon",
+                                "children":[
+                                    {"name":"Zuhal"},
+                                    {"name":"Mir Suliaman"}
+                                ]},
+                                    {"name":"Zohra",
+                                "children":[
+                                    {"name":"M. Harron"},
+                                    {"name":"Fatima"}
+                                ]},
+                                    {"name":"Mir Tariq",
+                                "children":[
+                                    {"name":"Sofia"}
+                                ]},
+                                    {"name":"Soraya",
+                                "children":[
+                                    {"name":"M. Mansoor"},
+                                    {"name":"Mariam"},
+                                    {"name":"Laila"},
+                                    {"name":"Humaira"}
+                                ]},
+                                    {"name":"Nasreen",
+                                "children":[
+                                    {"name":"Zareen"}
+                                ]},
+                                    {"name":"Mallal",
+                                "children":[
+                                    {"name":"M. Yosuf"}
+                                ]}
+                                ]},
+                                {
+                                    "name":"Mir Abdulah",
+                            "children":[
+                                {"name":"Mir Farooq"},
+                                {"name":"Mir Mohmood"},
+                                {"name":"Mir Obaidula"},
+                                {"name":"Zainab"},
+                                {"name":"Mir Masuud"},
+                                {"name":"Mir Daoud"},
+                                {"name":"Monisa"},
+                                {"name":"Mir Abdul Majid"}
+                            ]},
+                                {"name":"Mir Alam"}
+                            ]}
+
+                            ]
+                        },
+                        { 
+                            "name": "Agha Mir",
+                        "children":[
+                            {
+                                "name":"Sheikh Mir",
+                            "children":[
+                                {
+                                    "name":"Mir Ahmad (Marmoor)",
+                                "children":[
+                                    {"name":"Said Noor Ahmad"},
+                                    {"name":"Mir Bahador Shah"},
+                                    {"name":"Said Ahmad"},
+                                    {"name":"Said Abas"},
+                                    {"name":"Said Mukhtar"},
+                                    {"name":"Mir Agha"},
+                                    {"name":"Mir Abdul Wakil"},
+                                    {"name":"Mir Pacha"}
+                                ]},
+                                {
+                                    "name":"Colonel Mir Jan Mohd",
+                                    "children":[
+                                        {
+                                            "name":"Said Maqbool",
+                                        "children":[
+                                            {"name":"One Son"},
+                                            {"name":"One Daughter"}
+                                        ]},
+                                        {
+                                            "name":"Said Kamal",
+                                        "children":[
+                                            {"name":"Said Ziar"},
+                                            {"name":"Dunja"},
+                                            {"name":"Mina"}
+                                        ]},
+                                        {
+                                            "name":"Said Habib",
+                                        "children":[
+                                            {
+                                                "name":"Said Rabi",
+                                            "children":[
+                                                {"name":"Said Zaki"},
+                                                {"name":"Marwa"},
+                                                {"name":"Madina"},
+                                                {"name":"Beheshta"},
+                                                {"name":"One Daughter"}
+                                            ]},
+                                            {"name":"Alina"},
+                                            {
+                                                "name":"Galina",
+                                            "children":[
+                                                {"name":"Yalda"}
+                                            ]}
+                                        ]},
+                                        {"name":"Mir Ghulam Sakhi"}
+                                    ]
+                                },
+                                {
+                                    "name":"Mir Ahmad Shah",
+                                "children":[
+                                    {"name":"Mir Yaqoot Shah"},
+                                    {"name":"Said Nadir"},
+                                    {"name":"Said Moqeem"},
+                                    {"name":"Mir Mohd Daud"},
+                                    {"name":"Mir Mohd Farooq"}
+                                ]}
+                            ]},
+                            {
+                                "name":"Mir Mohd Yousuf",
+                            "children":[
+                                {
+                                    "name":"Said Qasem",
+                                "children":[
+                                    {"name":"Said Kazim"},
+                                    {"name":"Said Alim"}
+                                ]}
+                            ]},
+                            {"name":"Arefa"}
+                        ] },
+                        {
+                             "name": "Said Noor" ,
+                             "children":[
+                                {"name":"Said Amir"},
+                                {
+                                    "name":"Sheikh Mir",
+                                    "children":[
+                                        {"name":"Mir Abdul Hamid"}
+                                    ]
+                                }
+                             ]
+                            }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

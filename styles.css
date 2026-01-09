@@ -1,0 +1,491 @@
+/* ===== Old Money / Legacy theme ===== */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap');
+
+:root{
+  /* Core colors */
+  --green: #006039;   /* Rolex Green (solid) */
+  --gold: #c8a24a;
+
+  /* Whites & text */
+  --bg: #ffffff;
+  --panel: #ffffff;
+  --text: #111111;
+  --muted: #555555;
+
+  /* Borders & shadows */
+  --border: #006039;
+  --shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+
+.crown{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--gold);   /* solid gold */
+}
+
+.brandText{
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 700;
+  font-size: 1.35rem;
+  letter-spacing: 0.02em;
+}
+
+
+*{ box-sizing: border-box; }
+
+body{
+  margin: 0;
+  background: #ffffff;
+  color: var(--text);
+  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial;
+}
+
+
+/* subtle “linen” texture effect */
+body::before{
+  content:"";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background-image:
+    radial-gradient(rgba(255,255,255,0.03) 1px, transparent 1px);
+  background-size: 3px 3px;
+  opacity: 0.18;
+  mix-blend-mode: overlay;
+}
+
+/* ===== Header / Nav ===== */
+header{
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: #006039;
+  border-bottom: 1px solid var(--border);
+}
+header,
+header a,
+.brandText {
+  color: #ffffff;
+}
+
+
+.nav{
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 14px 18px;
+  display:flex;
+  align-items:center;
+  gap: 14px;
+}
+
+.brand{
+  margin-right:auto;
+  display:flex;
+  align-items:center;
+  gap: 10px;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 700;
+  font-size: 1.35rem;
+  letter-spacing: 0.02em;
+}
+
+.dot{
+  width: 10px; height: 10px;
+  border-radius: 999px;
+  background: radial-gradient(circle at 35% 35%, #f3d58a, var(--gold2));
+  box-shadow: 0 0 0 1px rgba(200,162,74,0.35);
+}
+
+.nav a{
+  color: #ffff  ;
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 10px;
+  font-weight: 500;
+}
+
+.nav a:hover{
+  color: var(--green);
+}
+
+
+
+/* ===== Layout ===== */
+.container{
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 28px 18px 44px;
+}
+
+.card{
+  background: #ffffff;
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  padding: 24px;
+  box-shadow: var(--shadow);
+}
+
+
+h1,h2{
+  margin: 0 0 12px;
+  font-family: "Cormorant Garamond", serif;
+  letter-spacing: -0.01em;
+}
+
+h1{
+  font-size: clamp(2.1rem, 3.2vw, 3rem);
+  font-weight: 700;
+}
+
+p{
+  margin: 0 0 10px;
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+/* classy accent text */
+.accentText{
+  color: var(--gold);
+}
+
+/* ===== Buttons / Inputs ===== */
+a{ text-decoration:none; }
+
+.primary{
+  appearance: none;
+  border: none;
+  background: var(--green);
+  color: #ffffff;
+  font-weight: 600;
+  padding: 10px 16px;
+  border-radius: 12px;
+  cursor: pointer;
+  letter-spacing: 0.02em;
+}
+
+.primary:hover{
+  opacity: 0.92;
+}
+
+
+
+.primary.secondary{
+  color: rgba(255,255,255,0.88);
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.12);
+}
+
+.input{
+  width: 100%;
+  max-width: 420px;
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.12);
+  color: var(--text);
+  padding: 10px 12px;
+  border-radius: 12px;
+  outline: none;
+}
+.input:focus{
+  border-color: rgba(11,107,58,0.45);
+  box-shadow: 0 0 0 4px rgba(11,107,58,0.14);
+}
+
+
+/* ===== Tree Canvas ===== */
+#treeWrap{
+  height: 70vh;
+  min-height: 520px;
+  border-radius: 18px;
+  overflow: hidden;
+  border: 1px solid rgba(255,255,255,0.10);
+
+  /* subtle “museum glass” */
+  background:
+    radial-gradient(800px 500px at 25% 15%, rgba(200,162,74,0.10), transparent 60%),
+    radial-gradient(900px 600px at 85% 30%, rgba(15,31,43,0.55), transparent 60%),
+    rgba(255,255,255,0.03);
+}
+
+
+/* ===== HERO SECTION ===== */
+.hero{
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  align-items: center;
+  gap: 40px;
+  padding: 60px 0;
+}
+
+.heroText h1{
+  font-family: "Cormorant Garamond", serif;
+  font-size: clamp(2.6rem, 4vw, 3.4rem);
+  line-height: 1.15;
+  margin-bottom: 16px;
+}
+
+.heroText p{
+  max-width: 520px;
+  font-size: 1.05rem;
+  margin-bottom: 26px;
+}
+
+.heroImage{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.heroImage img{
+  max-width: 420px;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+@media (max-width: 900px){
+  .hero{
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .heroImage{
+    justify-content: center;
+    margin-top: 30px;
+  }
+
+  .heroText p{
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+
+
+/* Tooltip if you use it */
+.tooltip{
+  position:absolute;
+  pointer-events:none;
+  opacity:0;
+  transform: translateY(6px);
+  transition: opacity 120ms ease, transform 120ms ease;
+  background: rgba(10,12,14,0.92);
+  border: 1px solid rgba(200,162,74,0.25);
+  border-radius: 12px;
+  padding: 10px 12px;
+  color: var(--text);
+  box-shadow: 0 16px 60px rgba(0,0,0,0.45);
+}
+.tooltip strong{
+  display:block;
+  font-family:"Cormorant Garamond", serif;
+  font-size: 1.05rem;
+  margin-bottom: 3px;
+}
+.tooltip .muted{ color: var(--muted); font-size: 0.9rem; }
+
+
+/* ===== Force D3 tree visibility on white background ===== */
+#treeWrap svg { background: transparent; }
+
+
+
+/* =========================
+   NAFAAS THEME (TREE PAGE)
+   ========================= */
+
+/* Use this on the tree page only if you add class="nafaas" on body.
+   If you don't want to add a class, remove "body.nafaas" and just use "body". */
+body{
+  background: #2b0a0a; /* NAFAAS wine */
+  color: #ffffff;
+}
+
+/* remove any old container white look */
+.container{
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 48px 18px 70px;
+}
+
+/* Title + small text */
+.container h1{
+  font-family: "Cormorant Garamond", serif;
+  font-size: 3rem;
+  margin: 0 0 6px;
+  text-shadow: 0 0 12px rgba(255,255,255,0.18);
+}
+
+.small{
+  color: rgba(255,255,255,0.75);
+}
+
+/* Inputs + buttons */
+.input{
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.22);
+  color: #fff;
+}
+.input::placeholder{ color: rgba(255,255,255,0.55); }
+
+.primary{
+  background: rgba(255,255,255,0.92);
+  color: #2b0a0a;
+  border: none;
+  font-weight: 800;
+}
+.primary.secondary{
+  background: rgba(255,255,255,0.10);
+  color: #fff;
+  border: 1px solid rgba(255,255,255,0.25);
+}
+
+/* Tree panel */
+#treeWrap{
+  margin-top: 18px;
+  height: 70vh;
+  min-height: 520px;
+  background: #2b0a0a;
+  border-radius: 0; /* sharp corners like you want */
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 25px 70px rgba(0,0,0,0.55);
+}
+
+/* NAFAAS vignette on top of tree */
+#treeWrap::after{
+  content:"";
+  position:absolute;
+  inset:-40px;
+  pointer-events:none;
+  background:
+    radial-gradient(70% 60% at 50% 45%,
+      rgba(0,0,0,0) 35%,
+      rgba(0,0,0,0.28) 70%,
+      rgba(0,0,0,0.60) 100%);
+  opacity: 1;
+}
+
+
+
+
+/* About section under tree */
+.aboutSection{
+  margin-top: 34px;
+  text-align: center;
+  padding: 30px 18px 0;
+}
+
+.aboutSection h2{
+  font-family: "Cormorant Garamond", serif;
+  font-size: 2.2rem;
+  margin: 0 0 14px;
+  text-shadow: 0 0 10px rgba(255,255,255,0.14);
+}
+
+.aboutSection p{
+  margin: 0 auto 18px;
+  max-width: 760px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  line-height: 1.35;
+  color: rgba(255,255,255,0.92);
+  text-shadow: 0 0 10px rgba(255,255,255,0.10);
+}
+
+/* Bring me Home button */
+.homeBtn{
+  display: inline-flex;
+  margin-top: 10px;
+  padding: 12px 18px;
+  border-radius: 999px;
+  background: rgba(255,255,255,0.92);
+  color: #2b0a0a;
+  font-weight: 900;
+  text-decoration: none;
+  box-shadow: 0 14px 40px rgba(0,0,0,0.35);
+}
+.homeBtn:hover{ opacity: 0.92; }
+
+.controls{
+  display:flex;
+  gap:10px;
+  align-items:center;
+  flex-wrap:wrap;
+}
+
+
+.link-label{
+  font-size: 12px;
+  font-weight: 800;
+  fill: rgba(255,255,255,0.88);
+  pointer-events: none;
+
+  paint-order: stroke;
+  stroke: #2b0a0a;
+  stroke-width: 6px;
+  stroke-linejoin: round;
+}
+
+.link-label{
+  font-size: 12px;
+  font-weight: 900;
+  fill: rgba(255,255,255,0.92);
+  pointer-events: none;
+
+  /* mask line behind text */
+  paint-order: stroke;
+  stroke: #2b0a0a;       /* baggrundsfarven */
+  stroke-width: 7px;
+  stroke-linejoin: round;
+}
+/* ===== D3 (TREE) CLEAN STYLES — NAFAAS THEME ===== */
+
+/* Links */
+.link{
+  fill: none;
+  stroke: rgba(255,255,255,0.16);
+  stroke-width: 1px;
+  stroke-linecap: round;
+}
+
+.link.highlight{
+  stroke: rgba(255,255,255,0.88);
+  stroke-width: 2px;
+}
+
+/* Nodes */
+.node circle{
+  fill: rgba(255,255,255,0.08);
+  stroke: rgba(255,255,255,0.55);
+  stroke-width: 1.4px;
+}
+
+.node.highlight circle{
+  stroke: rgba(255,255,255,0.92);
+  stroke-width: 2.2px;
+}
+
+.node.target circle{
+  fill: rgba(255,255,255,0.92);
+  stroke: rgba(255,255,255,0.92);
+}
+
+/* Node labels */
+.node text{
+  fill: rgba(255,255,255,0.92);
+  font-size: 12px;
+}
+
+/* Link comment labels */
+.link-label{
+  font-size: 12px;
+  font-weight: 900;
+  fill: rgba(255,255,255,0.92);
+  pointer-events: none;
+
+  paint-order: stroke;
+  stroke: #2b0a0a;       /* background */
+  stroke-width: 7px;
+  stroke-linejoin: round;
+}
