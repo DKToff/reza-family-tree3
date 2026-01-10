@@ -489,3 +489,80 @@ body{
   stroke-width: 7px;
   stroke-linejoin: round;
 }
+
+
+/* EXTRA STUFF ADDED 01:20 AM*/
+.scrollHint{
+  display: none;
+  text-align: center;
+  margin-top: 10px;
+  color: rgba(255,255,255,0.65);
+  font-size: 0.85rem;
+  letter-spacing: 0.04em;
+}
+
+.scrollHint .arrow{
+  width: 6px;
+  height: 6px;
+  border-right: 2px solid rgba(255,255,255,0.6);
+  border-bottom: 2px solid rgba(255,255,255,0.6);
+  transform: rotate(45deg);
+  margin: 6px auto 0;
+  animation: bounce 1.6s infinite;
+}
+
+@keyframes bounce{
+  0%,100%{ transform: translateY(0) rotate(45deg); }
+  50%{ transform: translateY(6px) rotate(45deg); }
+}
+
+/* Mobile only */
+@media (max-width: 768px){
+  .scrollHint{
+    display: block;
+  }
+}
+
+
+
+@media (max-width: 768px){
+  #treeWrap{
+    height: 55vh;
+    min-height: 420px;
+  }
+}
+
+
+#treeWrap::before{
+  content:"";
+  position:absolute;
+  left:0;
+  right:0;
+  bottom:0;
+  height:80px;
+  pointer-events:none;
+  background: linear-gradient(
+    to bottom,
+    rgba(43,10,10,0) 0%,
+    rgba(43,10,10,0.85) 100%
+  );
+}
+
+
+.aboutSection{
+  scroll-margin-top: 40px;
+}
+
+.aboutSection h2{
+  margin-top: 10px;
+}
+
+
+.aboutSection::before{
+  content:"";
+  display:block;
+  width:60px;
+  height:1px;
+  background: rgba(255,255,255,0.4);
+  margin: 0 auto 24px;
+}
