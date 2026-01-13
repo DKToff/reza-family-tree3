@@ -237,3 +237,26 @@ body{
 
 .layer { opacity: 0; }
 .layer0 { opacity: 1; }
+
+
+
+
+/* --- Mobile: make the story text smaller (older iPhone/Android safe) --- */
+@media (max-width: 768px){
+  .storyText,
+  .storyText p{
+    font-size: 20px !important;
+    line-height: 1.45 !important;
+  }
+
+  /* Optional: reduce spacing so it fits nicely */
+  .storyText p{
+    margin: 0 0 18px !important;
+  }
+}
+@media (max-width: 420px){
+  .storyText,
+  .storyText p{
+    font-size: 12px !important;
+  }
+}
