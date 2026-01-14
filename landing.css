@@ -241,22 +241,26 @@ body{
 
 
 
-/* --- Mobile: make the story text smaller (older iPhone/Android safe) --- */
-@media (max-width: 768px){
-  .storyText,
-  .storyText p{
-    font-size: 20px !important;
-    line-height: 1.45 !important;
-  }
+.aboutSection{
+  margin-top: 34px;
+  text-align: center;
+  padding: 30px 18px 0;
+}
 
-  /* Optional: reduce spacing so it fits nicely */
-  .storyText p{
-    margin: 0 0 18px !important;
-  }
+.aboutSection h2{
+  font-family: "Cormorant Garamond", serif;
+  font-size: 2.2rem;
+  margin: 0 0 14px;
+  text-shadow: 0 0 10px rgba(255,255,255,0.14);
 }
-@media (max-width: 420px){
-  .storyText,
-  .storyText p{
-    font-size: 12px !important;
-  }
+
+.aboutSection p{
+  margin: 0 auto 18px;
+  max-width: 760px;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.35;
+  color: rgba(255,255,255,0.92);
+  text-shadow: 0 0 10px rgba(255,255,255,0.10);
 }
+
