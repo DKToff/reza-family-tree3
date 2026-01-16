@@ -27,7 +27,14 @@
                                 {
                                     "name":"Mir Anwar-ul-Haq",
                                 "children":[
-                                    {"name":"Mir Mohd Zahir"},
+                                    {"name":"Mir Mohd Zahir",
+                                "children":[
+                                    {
+                                        "name":"Mir Mohd Zahir",
+                                "children":[
+                                    {"name":"Mir Torjalai"},
+                                    {"name":"Mir Ezmarai"}
+                                ]},
                                     {
                                         "name":"Mir Abdul Rauf",
                                     "children":[
@@ -612,5 +619,6 @@
     }
   ]
 }
+
 
 
