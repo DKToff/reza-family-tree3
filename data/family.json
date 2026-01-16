@@ -29,9 +29,6 @@
                                 "children":[
                                     {"name":"Mir Mohd Zahir",
                                 "children":[
-                                    {
-                                        "name":"Mir Mohd Zahir",
-                                "children":[
                                     {"name":"Mir Torjalai"},
                                     {"name":"Mir Ezmarai"}
                                 ]},
@@ -619,6 +616,7 @@
     }
   ]
 }
+
 
 
 
