@@ -32,10 +32,10 @@
                                         "name":"Mir Abdul Rauf",
                                     "children":[
                                         {
-                                            "name":"Mir Muin",
+                                            "name":"Brother(anonymous)",
                                         "children":[
-                                            {"name":"Efat"},
-                                            {"name":"Nekhat"}
+                                            {"name":"Daughter"},
+                                            {"name":"Daughter"}
                                         ]},
                                         {
                                             "name":"Mir Enam",
@@ -117,8 +117,8 @@
                                                 {
                                                     "name": "Rafi",
                                                 "children":[
-                                                    {"name":"1 Daughters"},
-                                                    {"name":"1 Son"}
+                                                    {"name":"Noah"},
+                                                    {"name":"Ella"}
                                                 ]},
                                                 {"name":"Fardin"},
                                                 {
@@ -612,4 +612,5 @@
     }
   ]
 }
+
 
