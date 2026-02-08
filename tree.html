@@ -15,6 +15,20 @@
 </head>
 
 <body>
+<script>
+  const correctPassword = "raza2024"; // CHANGE THIS
+
+  let userPassword = prompt("Enter password to access the family tree:");
+
+  if (userPassword !== correctPassword) {
+    alert("Incorrect password.");
+    window.location.href = "index.html"; // send back to landing
+  }
+</script>
+
+  
+
+  
   <main class="container">
    
     <div class="toolbar">
@@ -66,6 +80,7 @@
   <script src="tree.js"></script>
 </body>
 </html>
+
 
 
 
